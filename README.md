@@ -10,6 +10,8 @@
 
 It's a coverage check. Before you build a skill, spend twenty seconds seeing what already exists.
 
+![A findcoworkskills report for "discounted cash flow": 51 skills found, 7 cowork-ready, ranked by GitHub stars with cowork-ready and official-vendor tags.](docs/report.jpg)
+
 ---
 
 ## Why this exists
