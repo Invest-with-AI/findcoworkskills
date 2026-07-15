@@ -10,6 +10,8 @@
 
 It's a coverage check. Before you build a skill, spend twenty seconds seeing what already exists.
 
+![A findcoworkskills report for "discounted cash flow": 51 skills found, 7 cowork-ready, ranked by GitHub stars with cowork-ready and official-vendor tags.](docs/report.jpg)
+
 ---
 
 ## Why this exists
@@ -53,11 +55,11 @@ FCS_OUT=~/Desktop/skills.html python3 findcoworkskills.py "discounted cash flow"
 
 ## Reading the report
 
-- **cowork-ready tag** — the skill's own docs mention Cowork or Claude Desktop.
-- **green "official vendor" box** — published by a known company (Anthropic and friends). The vendor list lives near the top of the script, so add names as you like.
-- **Stars** — the GitHub repository's stars, the one signal every skill shares. Heads up: a big number can be the *repo's* stars when a skill lives inside a large project.
-- **Divider** — splits the cowork-ready skills from the rest. The ones below still install; they just don't mention Cowork in their docs.
-- **Show more** — the report loads 25 at a time.
+- **cowork-ready tag**: the skill's own docs mention Cowork or Claude Desktop.
+- **green "official vendor" box**: published by a known company (Anthropic and friends). The vendor list lives near the top of the script, so add names as you like.
+- **Stars**: the GitHub repository's stars, the one signal every skill shares. Heads up: a big number can be the *repo's* stars when a skill lives inside a large project.
+- **Divider**: splits the cowork-ready skills from the rest. The ones below still install; they just don't mention Cowork in their docs.
+- **Show more**: the report loads 25 at a time.
 
 ## Good to know
 
